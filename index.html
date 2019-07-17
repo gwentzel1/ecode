@@ -10,7 +10,7 @@
     <header>
       <nav class = "navbar">
         <ul>
-          <li><a href="#teasers" class="btn btn-primary btn-xl page-scroll">Home</a></li>
+          <li><a href="#bubblebox" class="btn btn-primary btn-xl page-scroll">Home</a></li>
           <li><a href="#mission" class="btn btn-primary btn-xl page-scroll">Our Mission</a></li>
           <li><a href="#forum" class="btn btn-primary btn-xl page-scroll">Community Forum</a></li>
           <li><a href="#sources" class="btn btn-primary btn-xl page-scroll">Our Sources</a></li>
@@ -21,16 +21,24 @@
       </nav>
     </header>
 
-
-    <div id = "teasers">
-      <h1 id = "teaser">Teasers</h1>
+    <div id="bubblebox">
+      <div id="bubblecontent">
+        <br>
+        <h2>Truth or Myth</h2>
+        <p>Check out this fun game!</p>
+      </div>
+       <div id="bubbles">
+        <div onclick="bubbles(0); clearInterval(intrvl);" style="background:#999;"></div>
+        <div onclick="bubbles(1); clearInterval(intrvl);"></div>
+        <div onclick="bubbles(2); clearInterval(intrvl);"></div>
+        <div onclick="bubbles(3); clearInterval(intrvl);"></div>
+      </div>
     </div>
 
     <div id = "mission">
-      <h1> About Us: Our Mission </h1>
+      <h1> About Us: Our Mission </h1><br>
       <h2> Plastic is used everywhere in our daily lives, from grocery bags to utensils. Yet our high consumption of plastic has led to an adverse effect on the environment. Beyond its convenient usage, plastic has become a serious problem. Our mission is to help you learn more about the dangers of plastic on the environment, adverse effects on the ocean, alternatives for plastic that you can use, and how you can make a difference. </h1>
-
-
+      <br>
       <form> Keep Updated: </form>
         First Name: <input type="text">
         Last Name: <input type="text">
