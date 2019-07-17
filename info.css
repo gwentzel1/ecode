@@ -46,3 +46,28 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+.intro {
+  font-size: 35px;
+}
+
+.description {
+  font-size: 32px;
+}
+.soda {
+  color: red;
+  font-size: 30px;
+}
+
+body {
+  padding-top: 60px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+.karmacola {
+  color: green;
+  font-size: 30px;
+}
