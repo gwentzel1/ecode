@@ -2,26 +2,15 @@ html {
   scroll-behavior: smooth;
 }
 
-/* body{
-  padding-top: 10px;
-} */
-
 div{
   background-color: lightblue;
   margin: 10px;
-  width: 100%;
+  width: 95%;
   height: 300px;
   padding: 16px;
   padding-top: 25px;
 
 }
-
-/* header{
-  display: flex;
-  justify-content: space-around;
-  position: fixed;
-  margin-bottom: 50px;
-} */
 
 .navbar{
  overflow: hidden;
