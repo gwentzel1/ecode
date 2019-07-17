@@ -6,20 +6,33 @@
     <title>impact calculator</title>
   </head>
   <body>
-    <h>your impact calculator</h>
+    <header>
+      <nav class = "navbar">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./t-or-m.html">Truth or Myth</a></li>
+          <li><a href="./calc.html">Waste Calculator</a></li>
+          <li><a href="./info.html">What Products to Use?</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <h>Calculate Your Impact</h>
+    <p>
     <form class="form">
-      <input type="number">
+      <input type="number" id="numero">
       <select name="plastic">
-        <option value="bottles">bottles</option>
-        <option value="straws">straws</option>
-        <option value="shoppingbags">shopping bags</option>
-        <option value="foodpackaging">food packaging</option>
-        <option value="drinklids">drink lids</option>
-        <option value="foodstorage">food storage (ziplocks, cling wrap)</option>
+        <option value="bottles">bottle(s)</option>
+        <option value="straws">straw(s)</option>
+        <option value="shoppingbags">shopping bag(s)</option>
+        <!-- <option value="foodpackaging">food packaging</option> -->
+        <option value="drinklids">drink lid(s)</option>
+        <!-- <option value="foodstorage">food storage (ziplocks, cling wrap)</option> -->
       </select>
       <p>a week</p>
       <br>
-      <input type="submit" value="submit">
+      <button class="button">See your results!</button>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript" src="./calc.js"></script>
   </body>
