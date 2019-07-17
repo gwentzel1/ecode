@@ -1,7 +1,19 @@
+html {
+  scroll-behavior: smooth;
+}
+
+h1{
+  background-color: lightblue;
+  margin: 10px;
+  width: 100%;
+  height: 300px;
+}
+
 header{
   display: flex;
   justify-content: space-around;
-
+  position: fixed;
+  margin-bottom: 50px;
 }
 
 ul {
@@ -29,3 +41,7 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+/* #teaser{
+  margin-top: 50px;
+} */
