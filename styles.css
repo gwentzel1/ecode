@@ -2,18 +2,33 @@ html {
   scroll-behavior: smooth;
 }
 
-h1{
+/* body{
+  padding-top: 10px;
+} */
+
+div{
   background-color: lightblue;
   margin: 10px;
   width: 100%;
   height: 300px;
+  padding: 16px;
+  padding-top: 25px;
+
 }
 
-header{
+/* header{
   display: flex;
   justify-content: space-around;
   position: fixed;
   margin-bottom: 50px;
+} */
+
+.navbar{
+ overflow: hidden;
+ background-color: #333;
+ position: fixed;
+ top: 0;
+ width: 100%;
 }
 
 ul {
@@ -41,7 +56,3 @@ li a {
 li a:hover {
   background-color: #111;
 }
-
-/* #teaser{
-  margin-top: 50px;
-} */
