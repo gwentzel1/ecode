@@ -19,19 +19,22 @@
 
 
     <h id="title">Calculate Your Impact</h>
-    <p>
     <form class="form">
       <input type="number" id="numero">
-      <select name="plastic">
-        <option id="bot" value="bottles">bottle(s)</option>
-        <option id="str" value="straws">straw(s)</option>
-        <option id="sho" value="shoppingbags">shopping bag(s)</option>
+      <select id="kind" name="plastic">
+        <option value="bottles">bottle(s)</option>
+        <option value="straws">straw(s)</option>
+        <option value="shoppingbags">shopping bag(s)</option>
         <!-- <option value="foodpackaging">food packaging</option> -->
-        <option id="dri" value="drinklids">drink lid(s)</option>
+        <option value="drinklids">drink lid(s)</option>
         <!-- <option value="foodstorage">food storage (ziplocks, cling wrap)</option> -->
       </select>
-      <p>a week</p>
-      <br>
+      <select id="freq" name="time">
+        <!-- <option id="day" value="aday">a day</option> -->
+        <option value="aweek">a week</option>
+        <option value="amonth">a month</option>
+        <!-- <option id="year" value="ayear">a year</option> -->
+      </select>
       <button class="button">See your results!</button>
     </form>
     <div class = "wastenumber">
