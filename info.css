@@ -61,3 +61,28 @@ h3 {
   color: red;
   font-size: 30px;
 }
+
+.chocolate {
+  color: green;
+  font-size: 30px;
+}
+
+.dairy {
+  color: red;
+  font-size: 30px;
+}
+
+.yogurt {
+  color: green;
+  font-size: 30px;
+}
+
+.products {
+  color: red;
+  font-size: 30px
+}
+
+.stuff {
+  color: green;
+  font-size: 30px;
+}
