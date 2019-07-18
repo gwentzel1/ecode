@@ -19,22 +19,24 @@
 
 
     <h id="title">Calculate Your Impact</h>
+    <p>Every year, the United States generates about 230 million tons of trash. That means that each American throws away approximately 1,400 pounds of trash a year, about 3.85 pounds every single day.</p>
+    <p>Use the calculator below to discover how much of an impact your usage of just a single type of plastic product makes.</p>
     <form class="form">
-      <input type="number" id = "numero" name="numero" min=0 max="300">
+      <input type="number" id = "numero" name="numero" min=0 max="1000">
       <select id="product" name="plastic">
         <option selected disabled>Choose a plastic product</option>
         <option value="bottles">Bottle(s)</option>
         <option value="straws">Straw(s)</option>
-        <!-- <option value="shoppingbags">shopping bag(s)</option> -->
+        <option value="shopping bags">Shopping bag(s)</option>
         <option value="toothbrushes">Toothbrush(es)</option>
-        <option value="bags">Ziploc bag(s)</option>
+        <option value="Ziploc bags">Ziploc bag(s)</option>
         <option value="razors">Razor(s)</option>
       </select>
       <select id="freq" name="time">
-        <!-- <option id="day" value="aday">a day</option> -->
+        <option id="day" value="aday">a day</option>
         <option value="aweek">a week</option>
         <option value="amonth">a month</option>
-        <!-- <option id="year" value="ayear">a year</option> -->
+        <option id="year" value="ayear">a year</option>
       </select>
       <button class="button">See your results!</button>
     </form>
