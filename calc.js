@@ -3,10 +3,14 @@ var button = $('button');
 //converts word value of frequency to number for total equation
 function freqConversion(freq){
   var freqNum = 0;
-  if (freq === "aweek") {
+  if (freq === "aday") {
+    freqNum = 365;
+  }else if (freq === "aweek") {
     freqNum = 52;
   }else if (freq === "amonth") {
     freqNum = 12;
+  }else if (freq === "ayear") {
+    freqNum = 1;
   }
   return freqNum;
 }
@@ -20,11 +24,11 @@ function prodConversion(product){
   }else if (product === "razors") {
     var plasNum = 0.0005;
   }else if (product === "bottles") {
-    var plasNum = 39;
+    var plasNum = 0.027;
   }else if (product === "bags") {
     var plasNum = 0.011;
-
-  }
+  }else if (product === "shopping bags") {
+    var plasNum = 0.01;
   }
   return plasNum;
 }
@@ -41,5 +45,11 @@ function giveInfo() {
   var amount = $("#numero").val(); // number inputted
 
   var total = freqConversion(freq) * prodConversion(product) * amount;
+  total(Math.round(1.005+'e2')+'e-2');
+  function round(value, decimals) {
+  return Number(Math.round(value+'e'+decimals)+'e-'+decimals);
+}
+
+round(1.005, 2); // 1.01
   wastenumber.append(`That's ${total} pounds of waste a year, just from YOU using ${product}! `)
 }
