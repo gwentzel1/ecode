@@ -16,7 +16,20 @@ window.scrollBy({
   behavior: 'smooth'
 });
 
-// Scroll to a certain element
-document.querySelector('.hello').scrollIntoView({
-  behavior: 'smooth'
-});
+
+
+/* COMMUNITY Forum
+  */
+var button = $('button');
+var input = $('#comment').val("");
+var type = $(".type");
+
+button.on("click", doSomething);
+
+function doSomething(){
+  event.preventDefault();
+  var output = $('.output');
+
+  output.append(`<p> TYPE SOMETHING PLEASE ${input} </p>`)
+  console.log(input);
+}

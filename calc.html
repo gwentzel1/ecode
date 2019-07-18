@@ -20,14 +20,15 @@
 
     <h id="title">Calculate Your Impact</h>
     <form class="form">
-      <input type="number" id="numero">
+      <input type="number" id = "numero" name="numero" min=0 max="300">
       <select id="product" name="plastic">
-        <option value="bottles">bottle(s)</option>
-        <option value="straws">straw(s)</option>
-        <option value="shoppingbags">shopping bag(s)</option>
-        <option value="toothbrushes">toothbrush(es)</option>
-        <!-- <option value="drinklids">drink lid(s)</option> -->
-        <!-- <option value="foodstorage">food storage (ziplocks, cling wrap)</option> -->
+        <option selected disabled>Choose a plastic product</option>
+        <option value="bottles">Bottle(s)</option>
+        <option value="straws">Straw(s)</option>
+        <!-- <option value="shoppingbags">shopping bag(s)</option> -->
+        <option value="toothbrushes">Toothbrush(es)</option>
+        <option value="bags">Ziploc bag(s)</option>
+        <option value="razors">Razor(s)</option>
       </select>
       <select id="freq" name="time">
         <!-- <option id="day" value="aday">a day</option> -->
