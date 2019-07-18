@@ -71,3 +71,21 @@ function myth35(){
   event.preventDefault();
   false3.text(`You are incorrect.`);
 }
+
+var truth4 = $(".truth4");
+var myth4 = $(".myth4");
+var false4 = $(".false4");
+
+truth4.on("click", false45);
+
+function false45() {
+  event.preventDefault();
+  false4.text(`That is incorrect. A study found that over 300 million tons (over 600 billion pounds) of plastic was thrown out in 2016 alone. And it looks like plastic production is not slowing down anytime soon. Although some brands are taking action against one use plastic, they are still using plastic, and a lot of companies continue to use one use plastic.`);
+}
+
+myth4.on("click", true5);
+
+function true5() {
+  event.preventDefault();
+  false4.text(`That is correct. A study found that over 300 million tons (over 600 billion pounds) of plastic was thrown out in 2016 alone. And it looks like plastic production is not slowing down anytime soon. Although some brands are taking action against one use plastic, they are still using plastic, and a lot of companies continue to use one use plastic.`);
+}
