@@ -1,26 +1,31 @@
 var button = $('button');
 var wastenumber = $('.wastenumber');
-var time = $('.freq').val();
-function freqConversion(time){
-  var freq = 0;
-  var freq = $('.freq').val();
-  if freq == "aweek" {
+var product = $('#product').val();
+
+function freqConversion(freq){
+  var freqNum = 0;
+  if (freq == "aweek") {
     var freqNum = 52;
-  if
+  }else if (freq == "amonth") {
+    var freqNum = 12;
+  }return freqNum;
 }
+
+function prodConversion(product){
+  var plasNum = 0;
+  if (product == "toothbrushes") {
+    var plasNum = 0.05;
+  }else if (product == "straws") {
+    var plasNum = 0.0009259415;
+  }return plasNum;
+}
+
 button.on('click', giveInfo);
 
-  var input = $('#numero').val();
-  var bot = $('#bot')
-  bot = 5;
-
-    freqNum * bot * input
-  }
-
-  // var str = $('#str').val();
-  // var sho = $('#sho').val();
-  // var dri = $('#dri').val();
-
-function giveInfo(freqConversion($'.')) {
-  wastenumber.append()
+function giveInfo() {
+  event.preventDefault();
+  var freq = $('#freq').val();
+  var amount = $('#numero').val();
+  var total = freqNum * plasNum * amount;
+  wastenumber.append(`That's ${total} pounds of waste a year!`)
 }
