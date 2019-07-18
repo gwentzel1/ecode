@@ -74,6 +74,21 @@ li a:hover {
 .ourmission {
   font-family: 'Kaushan Script', cursive;
   font-size: 50px;
+}
+
+.oursources {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 50px;
+}
+
+.community {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 50px;
+}
+
+.share {
+  font-family: 'Montserrat', sans-serif;
+}
 =======
 #input{
   display: flex;
@@ -87,6 +102,7 @@ li a:hover {
   width: 33%;
   margin-left: 6px;
   margin-right: 10px;
+  font-family: 'Montserrat', sans-serif
 }
 
 
@@ -105,4 +121,8 @@ li a:hover {
 .red {
   background-color: blue;
 >>>>>>> 98642c0b9066513bf85744d9814aabd3c9e9cdf3
+}
+
+#sources {
+  font-family: 'Montserrat', sans-serif
 }
