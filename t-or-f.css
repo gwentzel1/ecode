@@ -6,6 +6,7 @@
 
 h1{
   text-align: center;
+  font-family: 'Kaushan Script', cursive;
 }
 button{
   font-size: 15px;
@@ -91,10 +92,5 @@ li a:hover {
 }
 
 .submit{
-  text-align: center;
-}
-
-#submit{
-  box-sizing: border-box;
   text-align: center;
 }
