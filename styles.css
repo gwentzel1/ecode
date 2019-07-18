@@ -3,6 +3,11 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 text-align: center;
+
+}
+
+body{
+  background: #f7f7f7;
 }
 
 html {
@@ -10,13 +15,13 @@ html {
 }
 
 div{
-
-  background-color: lightblue;
-  margin: 10px;
-  width: 97%;
-  height: 300px;
-  padding: 16px;
-  padding-top: 25px;
+  background-color: #76c1d4;
+  margin: 16px;
+  width: 98%;
+  height: 600px;
+  padding: 20px;
+  padding-top: 50px;
+  border-radius: 10px;
 
 }
 
@@ -26,6 +31,9 @@ div{
  position: fixed;
  top: 0;
  width: 100%;
+
+ display: flex;
+ justify-content: space-between;
 }
 
 ul {
@@ -38,7 +46,7 @@ ul {
 }
 
 li {
-  float: left;
+  display: inline-block;
 }
 
 li a {
@@ -51,54 +59,5 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  background-color: #3d7c47;
 }
-
-#bubblebox{
-    display: flex;
-    flex-direction: column;
-
-}
-
-#bubbles{
-    width:auto;
-    margin:0px auto;
-    text-align:center;
-
-}
-
-#bubbles > div{
-    display:inline-block;
-    width:10px;
-    height:10px;
-    margin:24px 10px 0px 10px;
-    background:rgba(0,0,0,.1);
-    text-align:center;
-    border:2px solid #999;
-    border-radius:100%;
-    font-size:17px;
-    text-decoration:none;
-    transition: background 0.3s linear 0s;
-    cursor:pointer;
-
-}
-
-/* #bubblecontent{
-    margin:0px auto;
-    transition:opacity 0.3s linear 0s;
-    font-family: Arial;
-
-}
-
-#bubblecontent > h2{
-    text-align:center;
-    color:#7EA800;
-
-}
-
-#bubblecontent > p{
-
-    line-height:1.5em;
-    padding:20px 50px;
-
-} */
