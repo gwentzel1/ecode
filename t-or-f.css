@@ -3,10 +3,18 @@
   margin:0;
 }
 
+button{
+  font-size: 15px;
+}
+
+p{
+font-size: 20px;
+}
 
 body{
-  padding-top: 100px;
-  padding: 25px;
+  font-family: 'Lora', serif;
+  padding-top: 200px;
+  padding: 55px;
   margin-right: auto 25px;
 }
 
@@ -41,5 +49,12 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+}
+
+.red{
+  background-color:red;
+}
+
+.green{
+  background-color:green;
 }
