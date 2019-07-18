@@ -1,8 +1,12 @@
 *{
   padding:0;
   margin:0;
+
 }
 
+h1{
+  text-align: center;
+}
 button{
   font-size: 15px;
 }
@@ -12,10 +16,30 @@ font-size: 20px;
 }
 
 body{
-  font-family: 'Lora', serif;
-  padding-top: 200px;
-  padding: 55px;
-  margin-right: auto 25px;
+  background: #f7f7f7;
+}
+
+#opening{
+  margin-top: 60px;
+  height: 75px;
+  border: 5px solid  #3d7c47;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.question{
+  background-color: #76c1d4;
+  margin: 16px;
+  width: 98%;
+  height: 200px;
+  padding: 20px;
+  border-radius: 10px;
+
+  /* display: flex;
+  align-items: center; */
+
 }
 
 .navbar{
@@ -24,6 +48,12 @@ body{
  position: fixed;
  top: 0;
  width: 100%;
+
+ display: flex;
+ justify-content: space-between;
+
+ box-sizing: border-box;
+ text-align: center;
 }
 
 ul {
@@ -36,7 +66,7 @@ ul {
 }
 
 li {
-  float: left;
+  display: inline-block;
 }
 
 li a {
@@ -49,6 +79,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
+  background-color: #3d7c47;
 }
 
 .red{
@@ -57,4 +88,13 @@ li a:hover {
 
 .green{
   background-color:green;
+}
+
+.submit{
+  text-align: center;
+}
+
+#submit{
+  box-sizing: border-box;
+  text-align: center;
 }
