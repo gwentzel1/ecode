@@ -61,3 +61,34 @@ li a {
 li a:hover {
   background-color: #3d7c47;
 }
+
+#input{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+}
+
+#comment{
+  height: 20px;
+  width: 33%;
+  margin-left: 6px;
+  margin-right: 10px;
+}
+
+
+#post{
+  border: 5px lightgrey;
+  border-radius: 5px;
+  background: #09868b;
+  color: white;
+  padding: 5px;
+}
+
+.output{
+
+
+}
+.red {
+  background-color: blue;
+}
