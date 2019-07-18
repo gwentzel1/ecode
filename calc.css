@@ -1,23 +1,41 @@
 * {
   text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body{
+  background: #f7f7f7;
+  margin-top: 100px;
 }
 
 #numero {
   width: 50px;
 }
 
-body {
-  margin-top: 100px;
+div{
+  background-color: #76c1d4;
+  margin: 16px;
+  width: 98%;
+  height: 600px;
+  padding: 20px;
+  padding-top: 50px;
+  border-radius: 10px;
+
 }
 
 .navbar{
- font-size:
- font-family:
  overflow: hidden;
  background-color: #333;
  position: fixed;
  top: 0;
  width: 100%;
+
+ display: flex;
+ justify-content: center;
+
 }
 
 ul {
@@ -30,7 +48,7 @@ ul {
 }
 
 li {
-  float: left;
+  display: inline-block;
 }
 
 li a {
@@ -41,7 +59,6 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  background-color: #3d7c47;
 }
