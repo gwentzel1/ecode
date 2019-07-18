@@ -45,11 +45,5 @@ function giveInfo() {
   var amount = $("#numero").val(); // number inputted
 
   var total = freqConversion(freq) * prodConversion(product) * amount;
-  total(Math.round(1.005+'e2')+'e-2');
-  function round(value, decimals) {
-  return Number(Math.round(value+'e'+decimals)+'e-'+decimals);
-}
-
-round(1.005, 2); // 1.01
   wastenumber.append(`That's ${total} pounds of waste a year, just from YOU using ${product}! `)
 }
