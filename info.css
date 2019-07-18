@@ -42,6 +42,7 @@ li a:hover {
 .soda {
   color: red;
   font-size: 30px;
+  font-family: 'Kaushan Script', cursive;
 }
 
 body {
@@ -55,34 +56,49 @@ h3 {
 .karmacola {
   color: green;
   font-size: 30px;
+  font-family: 'Kaushan Script', cursive;
 }
 
 .candy {
   color: red;
   font-size: 30px;
+  font-family: 'Kaushan Script', cursive;
 }
 
 .chocolate {
   color: green;
   font-size: 30px;
+  font-family: 'Kaushan Script', cursive;
 }
 
 .dairy {
   color: red;
   font-size: 30px;
+  font-family: 'Kaushan Script', cursive;
 }
 
 .yogurt {
   color: green;
   font-size: 30px;
+  font-family: 'Kaushan Script', cursive;
 }
 
 .products {
   color: red;
   font-size: 30px
+  font-family: 'Kaushan Script', cursive;
 }
 
 .stuff {
   color: green;
   font-size: 30px;
+  font-family: 'Kaushan Script', cursive;
+}
+
+header {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.learn {
+  font-family: 'Oswald', sans-serif;
 }

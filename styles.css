@@ -61,3 +61,16 @@ li a {
 li a:hover {
   background-color: #3d7c47;
 }
+
+#sources {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.description {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.ourmission {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 50px;
+}
