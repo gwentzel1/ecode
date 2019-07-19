@@ -71,11 +71,13 @@ li a:hover {
 
 .description {
   font-family: 'Montserrat', sans-serif;
+  color: #05138d;
 }
 
 .ourmission {
   font-family: 'Kaushan Script', cursive;
   font-size: 50px;
+  color: white;
 }
 
 .oursources {
@@ -131,9 +133,13 @@ li a:hover {
 }
 
 img{
+  width: 550px;
+  height:640px:
+}
+
+.turtle {
   width: 400px;
-  height:500px:
-  border: 1px solid white;
+  height:300px;
 }
 
 <<<<<<< HEAD

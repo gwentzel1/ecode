@@ -2,6 +2,8 @@
   padding:0;
   margin:0;
   font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 h1{
@@ -22,7 +24,6 @@ font-size: 20px;
 }
 
 body{
-  background: #f7f7f7;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
@@ -36,16 +37,17 @@ body{
   flex-direction: column;
 }
 
+#answer{
+  text-align: left;
+}
+
 .question{
   background-color: #76c1d4;
   margin: 16px;
-  width: 98%;
+  width: 95%;
   height: 200px;
   padding: 20px;
   border-radius: 10px;
-
-  /* display: flex;
-  align-items: center; */
 
 }
 
@@ -70,7 +72,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  width: 100%;
+  width: 97%;
 }
 
 li {
