@@ -14,10 +14,9 @@ body {
 #sector{
   background-color: #76c1d4;
   margin-top: : 16px;
+  margin-left: 12px;
   width: 98%;
   padding: 20px;
-  /* padding-right: 10px;
-  padding-left: 10px; */
   border-radius: 10px;
   font-size: 25px;
   display: flex;
