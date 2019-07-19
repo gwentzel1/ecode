@@ -140,4 +140,11 @@ img{
   font-family: 'Kaushan Script', cursive;
   font-size: 50px;
   padding-top: 20px;
+  margin-top: 60px;
+  border: 5px solid #3d7c47;
+}
+
+#forum{
+  padding: 0;
+  height: 900px;
 }
