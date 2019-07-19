@@ -2,6 +2,7 @@
   box-sizing: border-box;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
 }
 
 body {
@@ -10,12 +11,15 @@ body {
 
 #sector{
   background-color: #76c1d4;
-  margin: 16px;
+  margin-top: : 16px;
   width: 98%;
   padding: 20px;
+  /* padding-right: 10px;
+  padding-left: 10px; */
   border-radius: 10px;
   font-size: 25px;
-
+  display: flex;
+  flex-direction: column;
 }
 
 .top {
@@ -39,7 +43,7 @@ body {
  position: fixed;
  top: 0;
  width: 100%;
-
+ font-size: 15px;
  display: flex;
  justify-content: center;
 
