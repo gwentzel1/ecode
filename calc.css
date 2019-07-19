@@ -18,8 +18,6 @@ body {
   padding: 20px;
   border-radius: 10px;
   font-size: 20px;
-  display: flex;
-  flex-direction: column;
 }
 
 .top {
@@ -37,21 +35,19 @@ body {
   width: 50px;
 }
 
-
 .navbar{
  overflow: hidden;
  background-color: #333;
  position: fixed;
  top: 0;
  width: 100%;
-<<<<<<< HEAD
-=======
+/* <<<<<<< HEAD
+======= */
  font-family: 'Montserrat', sans-serif;
  font-size: 15px;
->>>>>>> 727d6366433f3db086e0fb526bb2c8be1f5754a2
+/* >>>>>>> 727d6366433f3db086e0fb526bb2c8be1f5754a2 */
  display: flex;
  justify-content: space-between;
-
 }
 
 ul {
