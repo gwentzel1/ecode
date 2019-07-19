@@ -44,11 +44,14 @@ body {
  position: fixed;
  top: 0;
  width: 100%;
+<<<<<<< HEAD
+=======
  font-family: 'Montserrat', sans-serif;
  font-size: 15px;
+>>>>>>> 727d6366433f3db086e0fb526bb2c8be1f5754a2
  display: flex;
- justify-content: center;
-
+ justify-content: space-between;
+ 
 }
 
 ul {
