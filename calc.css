@@ -30,8 +30,8 @@ body {
 
 #title {
   font-family: 'Kaushan Script', cursive;
+  color: white;
   font-size: 50px;
-
 }
 #numero {
   width: 50px;
@@ -51,7 +51,7 @@ body {
 >>>>>>> 727d6366433f3db086e0fb526bb2c8be1f5754a2
  display: flex;
  justify-content: space-between;
- 
+
 }
 
 ul {
