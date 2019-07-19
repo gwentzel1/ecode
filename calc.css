@@ -4,7 +4,6 @@
   box-sizing: border-box;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
 }
 
 body {
@@ -18,7 +17,7 @@ body {
   width: 98%;
   padding: 20px;
   border-radius: 10px;
-  font-size: 25px;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -32,6 +31,7 @@ body {
 #title {
   font-family: 'Kaushan Script', cursive;
   font-size: 50px;
+
 }
 #numero {
   width: 50px;
@@ -44,6 +44,7 @@ body {
  position: fixed;
  top: 0;
  width: 100%;
+ font-family: 'Montserrat', sans-serif;
  font-size: 15px;
  display: flex;
  justify-content: center;

@@ -20,11 +20,11 @@ function prodConversion(product){
   if (product === "toothbrushes") {
     var plasNum = 0.04;
   }else if (product === "straws") {
-    var plasNum = 0.0009;
+    var plasNum = 0.001;
   }else if (product === "razors") {
     var plasNum = 0.05;
   }else if (product === "bottles") {
-    var plasNum = 0.027;
+    var plasNum = 0.03;
   }else if (product === "Ziploc bags") {
     var plasNum = 0.02;
   }else if (product === "shopping bags") {
