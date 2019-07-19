@@ -1,6 +1,6 @@
 *{
   padding:0;
-  margin:0;
+  margin: 0;
   font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
   text-align: center;
@@ -108,4 +108,11 @@ li a:hover {
 
 #description {
   font-size: 20px;
+}
+
+.center {
+  /* margin-left: 5px;
+  margin-right: 8px; */
+  width: 102%;
+  /* margin-right: 5px; */
 }
