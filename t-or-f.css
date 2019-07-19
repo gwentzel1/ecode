@@ -49,6 +49,7 @@ body{
   height: 200px;
   padding: 20px;
   border-radius: 10px;
+  font-size: 20px;
 
 }
 
@@ -103,4 +104,8 @@ li a:hover {
 
 .submit{
   text-align: center;
+}
+
+#description {
+  font-size: 20px;
 }
