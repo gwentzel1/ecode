@@ -45,5 +45,5 @@ function giveInfo() {
   var amount = $("#numero").val(); // number inputted
 
   var total = freqConversion(freq) * prodConversion(product) * amount;
-  wastenumber.append(`That's ${total} pounds of waste a year, just from YOU using ${product}! `)
+  wastenumber.append(`That's ${total} pounds of waste a year, just from YOU using ${product}! Factor in the millions and billions of other people using similiar practices: that's a pretty huge impact.`)
 }
