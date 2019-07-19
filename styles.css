@@ -18,7 +18,6 @@ div{
   background-color: #76c1d4;
   margin: 16px;
   width: 98%;
-  height: 600px;
   padding: 20px;
   padding-top: 50px;
   border-radius: 10px;
@@ -64,7 +63,7 @@ li a:hover {
   background-color: #3d7c47;
 }
 
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
 #sources {
   font-family: 'Montserrat', sans-serif;
 }
@@ -72,6 +71,7 @@ li a:hover {
 .description {
   font-family: 'Montserrat', sans-serif;
   color: black;
+  font-size: 20px;
 }
 
 .ourmission {
@@ -103,7 +103,6 @@ li a:hover {
 }
 
 #comment{
-  height: 20px;
   width: 33%;
   margin-left: 6px;
   margin-right: 10px;
@@ -159,6 +158,5 @@ img{
 
 #forum{
   padding: 0;
-  height: 900px;
 }
 /* >>>>>>> a2a5d0e2ef93ab394024cb27f81216e7d6880e02 */
