@@ -23,7 +23,7 @@ body{
 }
 
 #top{
-  margin-top: 15px; 
+  margin-top: 15px;
   border: 5px solid #3d7c47;
 }
 
@@ -31,15 +31,15 @@ body{
  overflow: hidden;
  background-color: #333;
  position: fixed;
+ font-size: 15px;
  top: 0;
  width: 100%;
 
  display: flex;
  justify-content: space-between;
- /* font-size: 15px; */
+
  box-sizing: border-box;
  text-align: center;
- /* font-size: 15px; */
 }
 
 ul {
@@ -48,22 +48,17 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  width: 100%;
+  width: 97%;
 }
 
 li {
-<<<<<<< HEAD
-  display: inline;
-=======
-  /* float: left; */
-  display:inline-block;
->>>>>>> 727d6366433f3db086e0fb526bb2c8be1f5754a2
+  display: inline-block;
 }
 
 li a {
   display: block;
   color: white;
-  display: inline-block;
+  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
