@@ -18,15 +18,15 @@ function freqConversion(freq){
 //converts word value of plastic product type to weight in pounds for total equation
 function prodConversion(product){
   if (product === "toothbrushes") {
-    var plasNum = 0.05;
+    var plasNum = 0.04;
   }else if (product === "straws") {
-    var plasNum = 0.0009;
+    var plasNum = 0.001;
   }else if (product === "razors") {
-    var plasNum = 0.0005;
+    var plasNum = 0.05;
   }else if (product === "bottles") {
-    var plasNum = 0.027;
-  }else if (product === "bags") {
-    var plasNum = 0.011;
+    var plasNum = 0.03;
+  }else if (product === "Ziploc bags") {
+    var plasNum = 0.02;
   }else if (product === "shopping bags") {
     var plasNum = 0.01;
   }
@@ -45,5 +45,5 @@ function giveInfo() {
   var amount = $("#numero").val(); // number inputted
 
   var total = freqConversion(freq) * prodConversion(product) * amount;
-  wastenumber.append(`That's ${total} pounds of waste a year, just from YOU using ${product}! Factor in the millions and billions of other people using similiar practices: that's a pretty huge impact.`)
+  wastenumber.append(`That's ${total} pounds of waste a year, just from YOU using ${product}! Factor in the millions of other people using similiar practices: that's a pretty huge impact.`)
 }
