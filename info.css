@@ -16,7 +16,7 @@ body{
 }
 
 .top{
-  margin-top: 85px;
+  margin-top: 15px;
   border: 5px solid #3d7c47;
 }
 
@@ -26,10 +26,10 @@ body{
  position: fixed;
  top: 0;
  width: 100%;
-
+ font-size: 15px;
  box-sizing: border-box;
  text-align: center;
-
+ font-size: 15px;
  display: flex;
  justify-content: space-between;
 }
@@ -126,5 +126,5 @@ h3 {
 
 
 .learn {
-  font-family: 'Oswald', sans-serif;
+  font-family:'Montserrat', sans-serif;
 }
