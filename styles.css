@@ -71,16 +71,19 @@ li a:hover {
 
 .description {
   font-family: 'Montserrat', sans-serif;
+  color: black;
 }
 
 .ourmission {
   font-family: 'Kaushan Script', cursive;
   font-size: 50px;
+  color: white;
 }
 
 .oursources {
   font-family: 'Kaushan Script', cursive;
   font-size: 50px;
+  color: white;
 }
 
 .community {
@@ -131,17 +134,21 @@ li a:hover {
 }
 
 img{
-  width: 400px;
-  height:500px:
-  border: 1px solid white;
+  width: 550px;
+  height:640px:
 }
 
-<<<<<<< HEAD
+.turtle {
+  width: 400px;
+  height:300px;
+}
+
+/* <<<<<<< HEAD */
 /* #slideshow {
   width: 400px;
   height: 500px;
 } */
-=======
+/* ======= */
 #slideshow {
   font-family: 'Kaushan Script', cursive;
   font-size: 50px;
@@ -154,4 +161,4 @@ img{
   padding: 0;
   height: 900px;
 }
->>>>>>> a2a5d0e2ef93ab394024cb27f81216e7d6880e02
+/* >>>>>>> a2a5d0e2ef93ab394024cb27f81216e7d6880e02 */

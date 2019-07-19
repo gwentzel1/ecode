@@ -22,8 +22,13 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+<<<<<<< HEAD
 #top{
   margin-top: 15px;
+=======
+.top{
+  * margin-top: 15px; *
+>>>>>>> 9f131d3ac6dd0a40acd26f15a3919628715bf6c1
   border: 5px solid #3d7c47;
 }
 
@@ -33,13 +38,23 @@ body{
  position: fixed;
  font-size: 15px;
  top: 0;
- width: 100%;
+ width: 97%;
+ font-size: 15px;
+ font-family: 'Montserrat', sans-serif;
 
  display: flex;
+<<<<<<< HEAD
  justify-content: space-between;
 
  box-sizing: border-box;
  text-align: center;
+=======
+ justify-content: center;
+ /* justify-content: space-between; */
+ /* box-sizing: border-box; */
+ /* text-align: center; */
+ /* flex-direction: row; */
+>>>>>>> 9f131d3ac6dd0a40acd26f15a3919628715bf6c1
 }
 
 ul {
@@ -52,7 +67,16 @@ ul {
 }
 
 li {
+<<<<<<< HEAD
   display: inline-block;
+=======
+/* <<<<<<< HEAD */
+    display: inline;   
+=======
+  /* float: left; */
+  display:inline-block;
+/* >>>>>>> 727d6366433f3db086e0fb526bb2c8be1f5754a2 */
+>>>>>>> 9f131d3ac6dd0a40acd26f15a3919628715bf6c1
 }
 
 li a {
