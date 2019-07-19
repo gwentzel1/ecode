@@ -1,3 +1,7 @@
+*{
+  padding:0;
+  margin:0;
+}
 div{
   background-color: #76c1d4;
   margin: 16px;
@@ -16,7 +20,7 @@ body{
 }
 
 .top{
-  margin-top: 15px;
+  * margin-top: 15px; *
   border: 5px solid #3d7c47;
 }
 
@@ -26,12 +30,13 @@ body{
  position: fixed;
  top: 0;
  width: 100%;
- font-size: 15px;
- box-sizing: border-box;
- text-align: center;
- font-size: 15px;
+
  display: flex;
  justify-content: space-between;
+ /* font-size: 15px; */
+ box-sizing: border-box;
+ text-align: center;
+ /* font-size: 15px; */
 }
 
 ul {
@@ -44,7 +49,8 @@ ul {
 }
 
 li {
-  float: left;
+  /* float: left; */
+  display:inline-block;
 }
 
 li a {
