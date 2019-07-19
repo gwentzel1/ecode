@@ -46,13 +46,13 @@ ul {
 }
 
 li {
-  float: left;
+  display: inline;
 }
 
 li a {
   display: block;
   color: white;
-  text-align: center;
+  display: inline-block;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -65,7 +65,7 @@ li a:hover {
 .intro {
   background: #f7f7f7;
   border-radius: 5px;
-  font-size: 35px;
+  font-size: px;
   text-align: center;
   font-family: 'Kaushan Script', cursive;
   padding: 10px;

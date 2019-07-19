@@ -136,8 +136,7 @@ img{
   border: 1px solid white;
 }
 
-#slideshow {
-  font-family: 'Kaushan Script', cursive;
-  font-size: 50px;
-  padding-top: 20px;
-}
+/* #slideshow {
+  width: 400px;
+  height: 500px;
+} */
